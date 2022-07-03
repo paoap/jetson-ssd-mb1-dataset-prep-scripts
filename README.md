@@ -163,7 +163,7 @@ Yolo2Pascal-annotation-conversion
          ```
          python3 imagesets-textfile-generator.py --source dataset/JPEGImages --target dataset/Imagesets/Main
          ```
-      This process will generate the corrected xml files into the dataset folder
+      The dataset folder can now be copied to ssd training folder in Jetson Inference
 
 ## Converting PNG to JPG
 You can convert png to jpg using the included png2jpg.py script

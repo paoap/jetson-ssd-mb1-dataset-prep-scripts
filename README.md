@@ -64,7 +64,7 @@ Yolo2Pascal-annotation-conversion
    |----- .gitignore
    |----- readme.md
 ```   
-3. In Anaconda Prompt
+3. In Anaconda Prompt: \
    a. Activate environment:
       ```
          conda activate jetson-ssd-mb1-dataset-prep-scripts

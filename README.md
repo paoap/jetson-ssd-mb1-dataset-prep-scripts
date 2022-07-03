@@ -165,8 +165,9 @@ Yolo2Pascal-annotation-conversion
          ```
       The dataset folder can now be copied to ssd training folder in Jetson Inference
 
-## Converting PNG to JPG
-You can convert png to jpg using the included png2jpg.py script
+## Other Tools
+* You can convert png to jpg using the included png2jpg.py script
+* Existing YOLO annotations can be modified using the VB program that is included in this repository. You will need to install Visual Studio Community Edition and Visual Basic package to run the program.
 
 
 

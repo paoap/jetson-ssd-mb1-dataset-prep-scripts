@@ -55,15 +55,15 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
 ## Converting Yolo format to PascalVOC
 1. Copy the whole folder (e.g., dataset) containing the images, labels and classes files to the Yolo2Pascal-annotation-conversion. The Yolo2Pascal-annotation-conversion folder should have the following folder structure:
-
-Yolo2Pascal-annotation-conversion\
-   |----- dataset\
-   |----- demo\
-   |----- pascal2yolo\
-   |----- yolo2pascal\
-   |----- .gitignore\
-   |----- readme.md\
-   
+```
+Yolo2Pascal-annotation-conversion
+   |----- dataset
+   |----- demo
+   |----- pascal2yolo
+   |----- yolo2pascal
+   |----- .gitignore
+   |----- readme.md
+```   
 3. In Anaconda Prompt:
    a. Activate environment:
       ```

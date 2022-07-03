@@ -6,7 +6,7 @@ LabelImg: https://github.com/tzutalin/labelImg \
 Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
 ## Installation
-1. Download miniconda from [here](https://docs.conda.io/en/latest/miniconda.html) and install it to your computer. \
+1. Download miniconda from [here](https://docs.conda.io/en/latest/miniconda.html) and install it to your computer. 
 2. After installation, launch anaconda prompt. \
    a. Input the following commands (one line at a time) to create and activate a python environment:
       ```

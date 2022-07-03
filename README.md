@@ -113,22 +113,22 @@ Yolo2Pascal-annotation-conversion
    We will modifying the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
 
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
-
-jetson-ssd-mb1-dataset-prep-scripts\
-&emsp|----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here\
-&emsp|----- dataset\
-&emsp &emsp|----- Annotations   <--- annotation-corrector.py will save corrected annotations here\
-      |----- JPEGImages    <--- copy JPG image files here\
-      |----- ImageSets\
-         |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here\
-      |----- labels.txt\
-   |----- Image Processing\
-   |----- YOLO Label Modifier\
-   |----- annotation-corrector.py\
-   |----- images-text-file-generator.py\
-   |----- LICENSE\
-   |----- README.md\
-   
+```
+   jetson-ssd-mb1-dataset-prep-scripts
+   |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here
+   |----- dataset
+   |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
+      |----- JPEGImages    <--- copy JPG image files here
+      |----- ImageSets
+         |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
+      |----- labels.txt
+   |----- Image Processing
+   |----- YOLO Label Modifier
+   |----- annotation-corrector.py
+   |----- images-text-file-generator.py
+   |----- LICENSE
+   |----- README.md
+```   
 3. In Anaconda Prompt:
    a. Activate environment:
       ```

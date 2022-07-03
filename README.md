@@ -57,7 +57,7 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 1. Copy the whole folder (e.g., dataset) containing the images, labels and classes files to the Yolo2Pascal-annotation-conversion. The Yolo2Pascal-annotation-conversion folder should have the following folder structure:
 ```
 Yolo2Pascal-annotation-conversion
-   |----- dataset
+   |----- dataset	<--- folder containing the *.jpg and *.txt files
    |----- demo
    |----- pascal2yolo
    |----- yolo2pascal

@@ -64,30 +64,30 @@ Yolo2Pascal-annotation-conversion
    |----- .gitignore
    |----- readme.md
 ```   
-3. In Anaconda Prompt: \
+3. In Anaconda Prompt
    a. Activate environment:
       ```
          conda activate jetson-ssd-mb1-dataset-prep-scripts
       ```
-   b. Navigate to the Yolo2Pascal-annotation-conversion installation directory \
-      i. Windows:
+   b. Navigate to the Yolo2Pascal-annotation-conversion installation directory
+      * Windows:
          ```
          cd %userprofile%/Yolo2Pascal-annotation-conversion
          ```
-      \ii. Ubuntu:
+      * Ubuntu:
          ```
          cd ~/Pascal-annotation-conversion
          ```
-   \c. Convert the dataset
-      \i. Windows:
+   c. Convert the dataset
+      * Windows:
          ```
          python yolo2pascal/yolo2voc.py dataset
          ```
-      \ii. Ubuntu:
+      * Ubuntu:
          ```
          python3 yolo2pascal/yolo2voc.py dataset
          ```
-      \This process will generate additional xml files into the dataset folder
+      This process will generate additional xml files into the dataset folder
 
 ## Fixing the PascalVOC format to Readable Format of SSD Pytorch in Jetson Inference
 
@@ -135,11 +135,11 @@ Yolo2Pascal-annotation-conversion
          conda activate jetson-ssd-mb1-dataset-prep-scripts
       ```
    b. Navigate to the Yolo2Pascal-annotation-conversion installation directory
-      \i. Windows:
+      * Windows:
          ```
          cd %userprofile%/jetson-ssd-mb1-dataset-prep-scripts
          ```
-      \ii. Ubuntu:
+      * Ubuntu:
          ```
          cd ~/jetson-ssd-mb1-dataset-prep-scripts
          ```
@@ -152,7 +152,7 @@ Yolo2Pascal-annotation-conversion
          ```
          python3 annotation-corrector.py --source DefaultAnnotations --target dataset/Annotations
          ```
-      This process will generate the corrected xml files into the dataset folder. \
+      This process will generate the corrected xml files into the dataset folder. 
    
    d. Generate the training and validation reference textfiles:
       * Windows:
@@ -163,7 +163,7 @@ Yolo2Pascal-annotation-conversion
          ```
          python3 imagesets-textfile-generator.py --source dataset/JPEGImages --target dataset/Imagesets/Main
          ```
-      \This process will generate the corrected xml files into the dataset folder
+      This process will generate the corrected xml files into the dataset folder
 
 ## Converting PNG to JPG
 You can convert png to jpg using the included png2jpg.py script

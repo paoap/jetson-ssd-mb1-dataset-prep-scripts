@@ -117,7 +117,7 @@ Yolo2Pascal-annotation-conversion
    jetson-ssd-mb1-dataset-prep-scripts
    |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here
    |----- dataset
-   |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
+      |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
       |----- JPEGImages    <--- copy JPG image files here
       |----- ImageSets
          |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here

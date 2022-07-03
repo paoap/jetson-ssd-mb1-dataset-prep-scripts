@@ -46,11 +46,11 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 3. Change save directory to the dataset folder
 4. Ensure that selected format is YOLO
 5. Enable autosaving by going to Tools -> Enable autosaving
-6. Annotating:
-   a. Press 'W' to annotate images by left-clicking and enclosing the object with rectangles
-   b. Input the label for the annotation
-   IMPORTANT: when open an existing folder with annotations and appending new labels, the class entries in classes.txt file will be replaced. For example, if the classes.txt file initially contained the labels 'toy' and 'tools' in the first and second lines, respectively, annotating with just 'tools' in this session would modify the classes.txt file and it will only contain the 'tools' class. Going to the next image will cause Labelimg to crash. If this happens, open the classes.txt file and input the classes in the correct arrangement per line. To label images with existing classes.txt file, create temporary annotations for each class in the proper order. E.g., start with 'toys' and then 'tools' then you can delete these temporary boxes and annotate the objects in any order. 
-   b. Go to the next image by pressing 'D' or previous image by pressing 'A'
+6. Annotating:\
+   a. Press 'W' to annotate images by left-clicking and enclosing the object with rectangles\
+   b. Input the label for the annotation\
+   IMPORTANT: when open an existing folder with annotations and appending new labels, the class entries in classes.txt file will be replaced. For example, if the classes.txt file initially contained the labels 'toy' and 'tools' in the first and second lines, respectively, annotating with just 'tools' in this session would modify the classes.txt file and it will only contain the 'tools' class. Going to the next image will cause Labelimg to crash. If this happens, open the classes.txt file and input the classes in the correct arrangement per line. To label images with existing classes.txt file, create temporary annotations for each class in the proper order. E.g., start with 'toys' and then 'tools' then you can delete these temporary boxes and annotate the objects in any order. \
+   b. Go to the next image by pressing 'D' or previous image by pressing 'A'.\
    c. Right-click a box to edit annotation class.
 
 ## Converting Yolo format to PascalVOC
@@ -78,7 +78,7 @@ Yolo2Pascal-annotation-conversion
          ```
          cd ~/Pascal-annotation-conversion
          ```
-   c. Convert the dataset
+   c. Convert the dataset\
       i. Windows:
          ```
          python yolo2pascal/yolo2voc.py dataset

@@ -36,7 +36,7 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
    b. Install pylance extension for code suggestion and completion.
    c. Open jetson-ssd-mb1-dataset-prep-scripts folder in VSCODE
 
-## Labeling images using Labelimg
+## Annotating using Labelimg
 1. Open Anaconda prompt (miniconda) and input the following command:
    ```
    conda activate jetson-ssd-mb1-dataset-prep-scripts
@@ -91,7 +91,7 @@ Yolo2Pascal-annotation-conversion
 
 ## Fixing the PascalVOC format to Readable Format of SSD Pytorch in Jetson Inference
 
-   \The SSD MobileNetV1 path format in the Jetson Inference repository is as follows:
+   The SSD MobileNetV1 path format in the Jetson Inference repository is as follows:
    ```
    <folder>dataset</folder>
 	<filename>image.jpg</filename>
@@ -101,7 +101,7 @@ Yolo2Pascal-annotation-conversion
 		<image>custom</image>
 	</source>
    ```
-   \While YOLO2Pascal generates the following format:
+   While YOLO2Pascal generates the following format:
    ```
    <folder>dataset</folder>
 	<filename>image.jpg</filename>
@@ -110,7 +110,7 @@ Yolo2Pascal-annotation-conversion
 		<database>Unknown</database>
 	</source>
    ```
-   \We will modifying the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
+   We will modifying the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
 
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 ```
@@ -121,7 +121,7 @@ Yolo2Pascal-annotation-conversion
       |----- JPEGImages    <--- copy JPG image files here
       |----- ImageSets
          |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
-      |----- labels.txt
+      |----- labels.txt	   <--- copy contents of classes.text
    |----- Image Processing
    |----- YOLO Label Modifier
    |----- annotation-corrector.py

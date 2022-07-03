@@ -6,8 +6,8 @@ LabelImg: https://github.com/tzutalin/labelImg \
 Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
 ## Installation
-1. Download miniconda from [here](https://docs.conda.io/en/latest/miniconda.html) and install it to your computer.
-2. After installation, launch anaconda prompt.
+1. Download miniconda from [here](https://docs.conda.io/en/latest/miniconda.html) and install it to your computer. \
+2. After installation, launch anaconda prompt. \
    a. Input the following commands (one line at a time) to create and activate a python environment:
       ```
       conda create -n jetson-ssd-mb1-dataset-prep-scripts
@@ -31,9 +31,9 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
       ```
       conda deactivate
       ```      
-4. Download and install your favorite programming IDE. I use VSCode. You can get it from [here](https://code.visualstudio.com/).
-   a. Install python extension for code linting.
-   b. Install pylance extension for code suggestion and completion.
+4. Download and install your favorite programming IDE. I use VSCode. You can get it from [here](https://code.visualstudio.com/). \
+   a. Install python extension for code linting. \
+   b. Install pylance extension for code suggestion and completion. \
    c. Open jetson-ssd-mb1-dataset-prep-scripts folder in VSCODE
 
 ## Annotating using Labelimg

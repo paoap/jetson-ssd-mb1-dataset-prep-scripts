@@ -4,8 +4,8 @@ import os
 import random
 
 parser = argparse.ArgumentParser(prefix_chars="--")
-parser.add_argument("--source", help="specify the directory of the images.", default='JPEGImages', type=str)
-parser.add_argument("--target", help="specify the save location directory of the text files", default='Imagesets/New', type=str)
+parser.add_argument("--source", help="specify the directory of the images.", default='dataset/JPEGImages', type=str)
+parser.add_argument("--target", help="specify the save location directory of the text files", default='dataset/Imagesets/Main', type=str)
 args = parser.parse_args()
 
 file_list = glob.glob(args.source + "/*.jpg")
@@ -38,8 +38,8 @@ train_list = '\n'.join(train_list)
 val_list = '\n'.join(val_list)
 trainval_list = train_list+ '\n' + val_list
 
-if not (os.path.isdir('Imagesets/New')):
-    os.mkdir("Imagesets/New")
+if not (os.path.isdir('dataset/Imagesets/Main')):
+    os.mkdir("dataset/Imagesets/Main")
 
 with open(args.target+"/train.txt","w") as output:
     output.write(str(train_list))

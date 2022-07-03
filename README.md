@@ -26,7 +26,7 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
       conda install git
       git clone https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
       cd Yolo2Pascal-annotation-conversion/yolo2pascal
-      git clone git@github.com:paoap/jetson-ssd-mb1-dataset-prep-scripts.git
+      git clone https://github.com/paoap/jetson-ssd-mb1-dataset-prep-scripts.git
       ```
    5. To exit the environment, type:
       ```

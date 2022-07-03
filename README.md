@@ -1,7 +1,7 @@
 # jetson-ssd-mb1-dataset-prep-scripts
 These set of python scripts are used to generate the necessary folders and text files for training SSD MobileNetV1 models using Jetson Inference. This script requires that images are saved in *.jpg.
 
-## related repository
+## Related Repositories
 LabelImg: https://github.com/tzutalin/labelImg \
 Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
@@ -115,9 +115,9 @@ Yolo2Pascal-annotation-conversion\
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 
 jetson-ssd-mb1-dataset-prep-scripts\
-   |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here\
-   |----- dataset\
-      |----- Annotations   <--- annotation-corrector.py will save corrected annotations here\
+&emsp|----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here\
+&emsp|----- dataset\
+&emsp &emsp|----- Annotations   <--- annotation-corrector.py will save corrected annotations here\
       |----- JPEGImages    <--- copy JPG image files here\
       |----- ImageSets\
          |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here\

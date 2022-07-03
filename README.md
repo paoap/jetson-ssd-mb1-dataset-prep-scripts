@@ -110,7 +110,7 @@ Yolo2Pascal-annotation-conversion
 		<database>Unknown</database>
 	</source>
    ```
-   We will modifying the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
+   We will modify the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
 
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 ```

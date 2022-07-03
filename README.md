@@ -63,7 +63,9 @@ Yolo2Pascal-annotation-conversion
    |----- yolo2pascal
    |----- .gitignore
    |----- readme.md
-```   
+```
+**NOTE:** Using png files will cause yolo2voc.py to generate 0,0 coordinates as the script utilizes QtImage and could not properly read the 4-channel image files.
+
 3. In Anaconda Prompt: \
    a. Activate environment:
       ```

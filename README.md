@@ -2,7 +2,7 @@
 These set of python scripts are used to generate the necessary folders and text files for training SSD MobileNetV1 models using Jetson Inference. This script requires that images are saved in *.jpg.
 
 ## related repository
-LabelImg: https://github.com/tzutalin/labelImg __
+LabelImg: https://github.com/tzutalin/labelImg \
 Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
 ## Installation

@@ -2,7 +2,7 @@
 These set of python scripts are used to generate the necessary folders and text files for training SSD MobileNetV1 models using Jetson Inference. This script requires that images are saved in *.jpg.
 
 ## related repository
-LabelImg: https://github.com/tzutalin/labelImg
+LabelImg: https://github.com/tzutalin/labelImg __
 Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
 
 ## Installation
@@ -114,20 +114,20 @@ Yolo2Pascal-annotation-conversion
 
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 
-jetson-ssd-mb1-dataset-prep-scripts
-   |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here
-   |----- dataset
-      |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
-      |----- JPEGImages    <--- copy JPG image files here
-      |----- ImageSets     
-         |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
-      |----- labels.txt
-   |----- Image Processing
-   |----- YOLO Label Modifier
-   |----- annotation-corrector.py
-   |----- images-text-file-generator.py
-   |----- LICENSE
-   |----- README.md
+jetson-ssd-mb1-dataset-prep-scripts __
+   |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here __
+   |----- dataset __
+      |----- Annotations   <--- annotation-corrector.py will save corrected annotations here __
+      |----- JPEGImages    <--- copy JPG image files here __
+      |----- ImageSets     __
+         |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here __
+      |----- labels.txt __
+   |----- Image Processing __
+   |----- YOLO Label Modifier __
+   |----- annotation-corrector.py __
+   |----- images-text-file-generator.py __
+   |----- LICENSE __
+   |----- README.md __
    
 3. In Anaconda Prompt:
    a. Activate environment:

@@ -105,7 +105,7 @@ Yolo2Pascal-annotation-conversion
    ```
    <folder>dataset</folder>
 	<filename>image.jpg</filename>
-	<path>dataset\field_01_00001.jpg</path>
+	<path>dataset\image.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

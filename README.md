@@ -129,12 +129,12 @@ Yolo2Pascal-annotation-conversion
    |----- LICENSE
    |----- README.md
 ```   
-3. In Anaconda Prompt:
-   \a. Activate environment:
+3. In Anaconda Prompt: \
+   a. Activate environment: \
       ```
          conda activate jetson-ssd-mb1-dataset-prep-scripts
       ```
-   \b. Navigate to the Yolo2Pascal-annotation-conversion installation directory
+   b. Navigate to the Yolo2Pascal-annotation-conversion installation directory
       \i. Windows:
          ```
          cd %userprofile%/jetson-ssd-mb1-dataset-prep-scripts

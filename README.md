@@ -143,23 +143,23 @@ Yolo2Pascal-annotation-conversion
          ```
          cd ~/jetson-ssd-mb1-dataset-prep-scripts
          ```
-   \c. Convert the dataset
-      \i. Windows:
+   c. Convert the dataset
+      * Windows:
          ```
          python annotation-corrector.py --source DefaultAnnotations --target dataset/Annotations
          ```
-      \ii. Ubuntu:
+      * Ubuntu:
          ```
          python3 annotation-corrector.py --source DefaultAnnotations --target dataset/Annotations
          ```
       This process will generate the corrected xml files into the dataset folder. \
    
    d. Generate the training and validation reference textfiles:
-      i. Windows:
+      * Windows:
          ```
          python imagesets-textfile-generator.py --source dataset/JPEGImages --target dataset/Imagesets/Main
          ```
-      ii. Ubuntu:
+      * Ubuntu:
          ```
          python3 imagesets-textfile-generator.py --source dataset/JPEGImages --target dataset/Imagesets/Main
          ```

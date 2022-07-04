@@ -116,14 +116,14 @@ Yolo2Pascal-annotation-conversion
 
 1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 ```
-   jetson-ssd-mb1-dataset-prep-scripts
+jetson-ssd-mb1-dataset-prep-scripts
    |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here
    |----- dataset
-      |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
-      |----- JPEGImages    <--- copy JPG image files here
-      |----- ImageSets
-         |----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
-      |----- labels.txt	   <--- copy contents of classes.text
+      	     |----- Annotations   <--- annotation-corrector.py will save corrected annotations here
+      	     |----- JPEGImages    <--- copy JPG image files here
+      	     |----- ImageSets
+         		|----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
+      	     |----- labels.txt	   <--- copy contents of classes.text
    |----- Image Processing
    |----- YOLO Label Modifier
    |----- annotation-corrector.py

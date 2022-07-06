@@ -114,7 +114,7 @@ Yolo2Pascal-annotation-conversion
    ```
    We will modify the generated xml files by YOLO2Pascal to the format that can be properly referenced by the SSD MobileNet pytorch training script.
 
-1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
+1. Copy all the generated xml of YOLO2Pascal and jpg files from dataset to the specific folders in jetson-ssd-mb1-dataset-prep-scripts. Create the necessary folders as shown below:
 ```
 jetson-ssd-mb1-dataset-prep-scripts
    |----- DefaultAnnotations <--- copy the generated xml annotations of YOLO2Pascal here
@@ -123,7 +123,6 @@ jetson-ssd-mb1-dataset-prep-scripts
       	     |----- JPEGImages    <--- copy JPG image files here
       	     |----- ImageSets
          		|----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
-      	     |----- labels.txt	   <--- copy contents of classes.text
    |----- Image Processing
    |----- YOLO Label Modifier
    |----- annotation-corrector.py
@@ -170,6 +169,3 @@ jetson-ssd-mb1-dataset-prep-scripts
 ## Other Tools
 * You can convert png to jpg using the included png2jpg.py script
 * Existing YOLO annotations can be modified using the VB program that is included in this repository. You will need to install Visual Studio Community Edition and Visual Basic package to run the program.
-
-
-

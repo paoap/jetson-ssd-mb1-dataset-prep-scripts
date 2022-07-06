@@ -1,5 +1,5 @@
 # jetson-ssd-mb1-dataset-prep-scripts
-This set of python scripts are used to generate the necessary folders and text files for training SSD MobileNetV1 models using Jetson Inference. **The scripts requires that images are saved in jpg format.** I personally prefer saving my datasets in YOLO format since the format does not include file paths and file management less complicated.
+This set of python scripts are used to generate the necessary folders and text files for training SSD MobileNetV1 models using Jetson Inference. **The scripts requires that images are saved in jpg format.** I personally prefer saving my annotations in YOLO format since the format does not include file paths and makes file management less complicated.
 
 ## Related Repositories
 LabelImg: https://github.com/tzutalin/labelImg \

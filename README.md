@@ -123,6 +123,7 @@ jetson-ssd-mb1-dataset-prep-scripts
       	     |----- JPEGImages    <--- copy JPG image files here
       	     |----- ImageSets
          		|----- Main       <--- imagesets-textfile-generator.py will save imageset textfiles here
+	     |----- labels.txt    <--- copy classes.txt to this location and rename to labels.txt
    |----- Image Processing
    |----- YOLO Label Modifier
    |----- annotation-corrector.py

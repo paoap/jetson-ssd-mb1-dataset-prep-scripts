@@ -13,7 +13,7 @@ Yolo2Pascal: https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion
       conda create -n jetson-ssd-mb1-dataset-prep-scripts
       conda activate jetson-ssd-mb1-dataset-prep-scripts
       ```
-   b. While inside the concrete-void-space-analyzer python environment, install python and package installer for python using the following commands:
+   b. While inside the environment, install python and package installer for python using the following commands:
       ```
       conda install pip
       ```
